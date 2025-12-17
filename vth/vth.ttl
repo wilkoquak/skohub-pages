@@ -16,7 +16,7 @@ vth:vergunning a skos:Concept ;
     skos:topConceptOf vth: .
 
 vth:incident a skos:Concept ;
-    skos:prefLabel "incodent"@en;
+    skos:prefLabel "incident"@en;
     skos:narrower vth:ongeluk ;
     skos:topConceptOf vth: .
     
