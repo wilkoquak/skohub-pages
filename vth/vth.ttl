@@ -4,22 +4,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 vth: a skos:ConceptScheme ;
-    dct:title "vth vocabulary with hierarchy"@en, "vth woordenboek met hierarchie"@nl ;
-    dct:creator "Wilko Quak"@nl ;
+    dct:title "vth woordenboek met hierarchie" ;
+    dct:creator "Wilko Quak" ;
     dct:created "2025-12-18"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept vth:vergunning, vth:incident .
 
 vth:vergunning a skos:Concept ;
-    skos:prefLabel "vergunning"@nl;
-    skos:altLabel "Lila"@nl, "purple"@en ;
+    skos:prefLabel "vergunning";
+    skos:altLabel "Lila" ;
     skos:topConceptOf vth: .
 
 vth:incident a skos:Concept ;
-    skos:prefLabel "incident"@en;
+    skos:prefLabel "incident";
     skos:narrower vth:ongeluk ;
     skos:topConceptOf vth: .
     
 vth:ongeluk a skos:Concept ;
-    skos:prefLabel "ongeluk"@nl ;
+    skos:prefLabel "ongeluk" ;
     skos:inScheme vth: .
