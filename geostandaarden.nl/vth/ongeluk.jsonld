@@ -1,22 +1,12 @@
 {
   "id": "https://geostandaarden.nl/vth/ongeluk",
   "type": "Concept",
-  "prefLabel": {
-    "nl": "ongeluk"
-  },
   "broader": {
-    "id": "https://geostandaarden.nl/vth/incident",
-    "prefLabel": {
-      "en": "incident"
-    }
+    "id": "https://geostandaarden.nl/vth/incident"
   },
   "inScheme": [
     {
-      "id": "https://geostandaarden.nl/vth/",
-      "title": {
-        "en": "vth vocabulary with hierarchy",
-        "nl": "vth woordenboek met hierarchie"
-      }
+      "id": "https://geostandaarden.nl/vth/"
     }
   ],
   "inSchemeAll": [

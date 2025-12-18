@@ -1,24 +1,9 @@
 {
   "id": "https://geostandaarden.nl/vth/vergunning",
   "type": "Concept",
-  "prefLabel": {
-    "nl": "vergunning"
-  },
-  "altLabel": {
-    "en": [
-      "purple"
-    ],
-    "nl": [
-      "Lila"
-    ]
-  },
   "inScheme": [
     {
-      "id": "https://geostandaarden.nl/vth/",
-      "title": {
-        "en": "vth vocabulary with hierarchy",
-        "nl": "vth woordenboek met hierarchie"
-      }
+      "id": "https://geostandaarden.nl/vth/"
     }
   ],
   "inSchemeAll": [
@@ -28,11 +13,7 @@
   ],
   "topConceptOf": [
     {
-      "id": "https://geostandaarden.nl/vth/",
-      "title": {
-        "en": "vth vocabulary with hierarchy",
-        "nl": "vth woordenboek met hierarchie"
-      }
+      "id": "https://geostandaarden.nl/vth/"
     }
   ],
   "@context": {
