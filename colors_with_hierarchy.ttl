@@ -18,6 +18,9 @@ colour:violet a skos:Concept ;
 colour:green a skos:Concept ;
     skos:prefLabel "green"@en, "Grün"@de ;
     skos:narrower colour:grassgreen ;
+    skos:definition "De kleur van gras"@nl;
+    skos:definition "Color of grass"@en;
+    skos:definition "grass farbig"@de;
     skos:topConceptOf colour: .
     
 colour:grassgreen a skos:Concept ;
