@@ -5,6 +5,11 @@
     "en": "green",
     "de": "Grün"
   },
+  "definition": {
+    "en": "Color of grass",
+    "de": "grass farbig",
+    "nl": "De kleur van gras"
+  },
   "narrower": [
     {
       "id": "https://example.org/colour-with-hierarchy/grassgreen",
